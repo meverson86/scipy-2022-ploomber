@@ -20,11 +20,6 @@ import pandas as pd
 upstream = None
 product = None
 
-def divide(x, y):
-    return x / y
-
-divide(1, 0)
-
 # %% [markdown]
 # # Predicting median house value
 #
