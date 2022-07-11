@@ -41,3 +41,4 @@ Path(product['df']).parent.mkdir(exist_ok=True, parents=True)
 df.to_parquet(product['df'], index=False)
 
 print(sample)
+print('new stuff')
